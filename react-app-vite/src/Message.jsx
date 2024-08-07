@@ -1,6 +1,13 @@
 
 function Message (){
-    return <h1>Hola mundo.... esta es una prueba</h1>;
+
+    let name = 'Jesús Canales';
+    let lastname = 'Canales Guando'
+    return <div>
+        <h3>Hola mundo....</h3>
+        <h2>{name}</h2>
+        <h2>{lastname}</h2>
+    </div>;
 }
 
 export default Message;
